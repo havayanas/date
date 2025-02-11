@@ -1,0 +1,62 @@
+body{
+    background-color: #fac6c6;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+.container{
+    padding: 20px;
+    text-align: center;
+}
+  
+  h1 {
+    font-size: 2.5em;
+    color: #e66161;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+
+.yes-button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .no-button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    background-color: #e66161;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .gif_container img {
+    max-width: 20%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+
+  .music-button{
+    font-size: 1.5em;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #e66161;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
