@@ -18,5 +18,15 @@
             </a>
         </div>
     </div>
+<script>
+    window.onload = function() {
+        var gif = new Image();
+        gif.src = 'assets/yes/yehey.gif';
+        gif.onload = function() {
+            document.getElementById('gif').src = gif.src;
+            document.getElementById('gif-container').style.display = 'block';
+        };
+    };
+</script>
 </body>
 </html>
